@@ -1,0 +1,10 @@
+{
+  "name": "rakan-advanced-portfolio-assignment3",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static portfolio with GitHub API and interactive project controls. No runtime dependencies.",
+  "scripts": {
+    "test": "node --check js/script.js && node tests/check.cjs",
+    "test:browser": "python tests/browser_check.py"
+  }
+}
